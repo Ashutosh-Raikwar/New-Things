@@ -6,16 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    
 </head>
 <body>
-    <button id="btn" onclick="run()">Open</button>
+    <button id="btn2" onclick="run()">Open</button>
 
     <div id="model">
         <div id="inner">
-            <label for="">E-mail</label>
-            <input type="email" name="email" id="">
-            <label for="">Password</label>
-            <input type="password" name="" id="">
+            <span id="pic"><img src="https://img.icons8.com/ios/50/000000/user--v1.png" style="margin: 25% 25%;"></span>
+            
+            <span>
+                <p><img src="https://img.icons8.com/ios/50/000000/user--v1.png" style="height: auto; width: auto;"></p><input type="email" name="email" id="email" placeholder="E-mail" class="fields" >
+            </span>
+            <span>
+
+                <input type="password" name="" id="pass" placeholder="Password"class="fields" >
+            </span>
+            
+            
+            <div style="margin-top:10% ; font-style: italic;">
+                <p style="display: inline;"><input type="checkbox" name="" id="check" style="margin-left: 10%;">Remember me</p>
+                <p style="display: inline; margin-left: 10%;" >Forgot Password?</p>
+            </div>
             <input type="button" value="submit" id="btn1">
         </div>
     </div>
